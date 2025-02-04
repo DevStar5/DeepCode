@@ -1,0 +1,43 @@
+# System Requirements
+Node.js >= 14.0.0
+NPM >= 6.0.0
+
+# Backend Dependencies (run 'npm install' in backend directory)
+express@4.21.2
+axios@1.7.9
+cheerio@1.0.0
+cors@2.8.5
+fs@0.0.1-security
+path@0.12.7
+
+# Frontend Dependencies (run 'npm install' in frontend directory)
+react@19.0.0
+react-dom@19.0.0
+react-scripts@5.0.1
+axios@1.7.9
+web-vitals@4.2.4
+
+# Development Environment
+- Modern web browser (Chrome, Firefox, or Edge)
+- Internet connection
+- Minimum 500MB free disk space
+- Minimum 4GB RAM recommended
+
+# Installation Steps
+1. Install Node.js from https://nodejs.org/
+2. Clone/copy the project
+3. Backend setup:
+   cd backend
+   npm install
+   node index.js (runs on http://localhost:5000)
+
+4. Frontend setup:
+   cd frontend
+   npm install
+   npm start (runs on http://localhost:3000)
+
+# Note
+- Both backend and frontend servers must run simultaneously
+- Backend server must run on port 5000
+- Frontend server must run on port 3000
+- Ensure write permissions in the directory where websites will be cloned 
